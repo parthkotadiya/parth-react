@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.demo1 {
+
+  /* position: sticky; */
+}
+
+.demo2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demo3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.demo4 {
+  display: flex;
+  justify-content: center;
+}
+
+.demo5 {
+  background-color: black;
+  height: 35px;
+}
+
+.demo6:hover {
+  background-color: #6c7b99 !important
+}
+
+.demo7 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demo8 {
+  opacity: 0.5px black;
+}
+
+.demo9 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.demo10:hover {
+  color: chocolate !important
+}
+
+.demo11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -35px;
+
+}
+
+.demo13 {
+  display: flex;
+  justify-content: center;
+}
+
+.demo14 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 500px;
+  height: 350px;
+}
+
+.demo15 {
+  width: 400px;
+  height: 600px;
+  padding: 35px;
+}
+
+.demo16 {
+  background-color: rgba(255, 105, 180, 0.447);
+  padding: 50px;
+  width: 550px;
+  text-align: center;
+}
+
+.demo17 {
+  background-color: chocolate;
+  padding: 30px;
+  color: white;
+}
+
+.demo12 {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.demo18 {
+  border-bottom: 3px solid rgb(228, 216, 216);
+  fill: none;
+  background: transparent;
+}
+
+.demo18:hover {
+  border-bottom: 3px solid black;
+}
+
+.demo19:hover {
+  background-color: black;
+  color: white !important
+}
+
+.demo20 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.example {
+  position: relative;
+  padding: 0;
+  width: 200px;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.content {
+  opacity: 0;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+
+  color: #1c87c9;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 200px;
+
+
+  text-align: center;
+}
+
+.example .content:hover {
+  opacity: 1;
+}
+
+.example .content .text {
+  height: 0;
+  opacity: 1;
+
+
+}
+
+.example .content:hover .text {
+  opacity: 1;
+}
+
+.demo21 {
+  background-color: chocolate;
+  padding: 5px 20px;
+}
+
+.demo21:hover {
+  background-color: black;
+}
+
+.demo22 {
+  background-color: rgba(255, 105, 180, 0.447);
+  padding: 50px;
+  text-align: center;
+}
+
+.demo23 {
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  background-color: rgba(255, 105, 180, 0.212);
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+.demo23:hover{
+  border-color: transparent;
+  border-bottom: 2px solid red;
+}
+.demo24{
+  display: flex;justify-content:space-evenly
+}
+.demo25{text-align: start}
+.demo26{
+  background-color: chocolate;
+  height: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
